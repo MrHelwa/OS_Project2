@@ -3,10 +3,6 @@ on:
     branches:
       - master
 
-
-
-
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,5 +11,6 @@ jobs:
       - name: 'Testing Github action'
         run: pwd
 
-        - name: 'Testing Printing'
-          run: echo Ahmed
+      - name: 'Testing Printing'
+        run: echo Ahmed
+
