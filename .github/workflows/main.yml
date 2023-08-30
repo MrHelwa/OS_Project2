@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: ' Before'
+      - name: 'Before'
         run: ls
       
       - uses: 'actions/checkout@v3'
